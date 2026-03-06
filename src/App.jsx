@@ -281,16 +281,16 @@ function Hero() {
           </div>
 
           <h1 className="hero-anim leading-none">
-            <span className="font-bebas text-cream block text-7xl md:text-8xl lg:text-[6.5rem] tracking-wide">
+            <span className="font-bebas text-cream block text-5xl md:text-8xl lg:text-[6.5rem] tracking-wide">
               Craftsmanship
             </span>
-            <span className="font-bebas text-cream block text-6xl md:text-7xl lg:text-8xl tracking-wide">
+            <span className="font-bebas text-cream block text-4xl md:text-7xl lg:text-8xl tracking-wide">
               is the
             </span>
           </h1>
 
           <div className="hero-anim">
-            <span className="font-cinzel italic text-gradient-gold block text-5xl md:text-7xl lg:text-8xl leading-tight">
+            <span className="font-cinzel italic text-gradient-gold block text-4xl md:text-7xl lg:text-8xl leading-tight">
               Standard.
             </span>
           </div>
