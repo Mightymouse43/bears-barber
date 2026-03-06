@@ -208,10 +208,8 @@ function Navbar() {
       {menuOpen && (
         <div className="absolute top-[calc(100%+0.5rem)] left-0 right-0 bg-dark/95 backdrop-blur-xl border border-gold/20 rounded-3xl py-5 px-6 flex flex-col gap-4">
           {[
-            { label: 'Services', id: 'services' },
-            { label: 'About', id: 'about' },
+            { label: 'Prices', id: 'pricing' },
             { label: 'Reviews', id: 'reviews' },
-            { label: 'FAQ', id: 'faq' },
             { label: 'Contact', id: 'contact' },
           ].map(({ label, id }) => (
             <button
@@ -1117,7 +1115,7 @@ function FAQ() {
 // ─────────────────────────────────────────────────────────────
 
 function Footer() {
-  const today = new Date().getDay(); // 0=Sun
+  const today = (new Date().getDay() + 6) % 7; // 0=Mon…6=Sun
 
   return (
     <footer id="contact" className="bg-[#080605] rounded-t-[4rem] pt-20 pb-10 px-8">
